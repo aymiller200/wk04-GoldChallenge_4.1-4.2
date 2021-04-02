@@ -9,11 +9,60 @@
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 
-let shoppingList = [[ 'eggs', 'milk', 'butter' ], [ 'cleaner', 'trash bags', 'detergent' ], [ 'thank you card', 'pens', 'gift wrapping' ], [ 'shoes', 't-shirt', 'slacks' ]];
+let shoppingList = [
+    [ 'eggs', 'milk', 'butter' ], 
+    [ 'cleaner', 'trash bags', 'detergent' ], 
+    [ 'thank you card', 'pens', 'gift wrapping' ], 
+    [ 'shoes', 't-shirt', 'slacks' ]
+];
+        //0            //1          //2         //3
+const [coldStuff, houseStuff, giftStuff, clothesStuff] = shoppingList
 
+console.log(coldStuff);
+console.log(houseStuff);
+console.log(giftStuff);
+console.log(clothesStuff);
+
+const oneList = [...coldStuff, ...houseStuff, ...giftStuff, ...clothesStuff]
+
+console.log(oneList)
+ 
 let obj = {
-cleaning: [],
-gifts: [],
-clothing: [],
-grocery: []
+    cleaning: [],
+    gifts: [],
+    clothing: [],
+    grocery: []
 };
+
+/* 
+ oneList = ['eggs', 'milk', 'butter', 'cleaner', 'trashbags','detergent', 'thank you card', 'pens','gift wrapping','shoes','t-shirt', 'slacks']
+
+ */
+
+
+
+const newList = oneList.map(function(index){
+
+
+    oneList.forEach
+
+
+
+
+
+    
+
+    //  obj.gifts.push()
+    //  obj.clothing.push()
+    //  obj.grocery.push()
+
+
+          
+ })
+
+ console.log(obj)
+
+
+
+ 
+

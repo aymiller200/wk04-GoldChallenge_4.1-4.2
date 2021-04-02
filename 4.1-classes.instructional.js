@@ -19,5 +19,20 @@
 // Create a polygon with side lengths 3, 3, 8, and 8
 
 
-  
+class Polygon{
+    constructor(sides){
+        this.parameter = sides 
+    }
+    
+    perimeter(){
+         return (this.parameter || []).reduce((side, length) => {
+             return side + length
+         })   
+}
+}
+
+let value = new Polygon([3,3,8,8])
+
 // Print the perimeter
+
+console.log(value.perimeter())
