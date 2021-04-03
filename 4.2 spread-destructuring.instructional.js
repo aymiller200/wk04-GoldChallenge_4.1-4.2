@@ -34,30 +34,20 @@ let obj = {
     grocery: []
 };
 
-/* 
- oneList = ['eggs', 'milk', 'butter', 'cleaner', 'trashbags','detergent', 'thank you card', 'pens','gift wrapping','shoes','t-shirt', 'slacks']
 
- */
+const newList = oneList.map(function(item, index){
 
+    console.log(index + ' ' + item)
 
-
-const newList = oneList.map(function(index){
-
-
-    oneList.forEach
-
-
-
-
-
-    
-
-    //  obj.gifts.push()
-    //  obj.clothing.push()
-    //  obj.grocery.push()
-
-
-          
+    if(index<=2){
+        obj.grocery.push(item)
+    }else if (index>2 && index<6){
+        obj.cleaning.push(item)
+    }else if(index>5 && index<9){
+        obj.gifts.push(item)
+    }else if(index>8){
+        obj.clothing.push(item)
+    }          
  })
 
  console.log(obj)
